@@ -1,3 +1,26 @@
+/*nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+  }
+
+  .navbar {
+        float:left;
+        display: block;
+        color: #000;
+        background-color: gainsboro;
+        padding: 8px 16px;
+        text-decoration: none;
+  }
+
+      
+      .navbar:hover {
+        background-color: #b6cdd3;
+        color: white;
+      }
+*/
+
 nav ul{
     list-style-type: none;
     margin: 0;
@@ -5,12 +28,30 @@ nav ul{
     overflow: hidden;
     background-color: none;
   }
+
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    background-color: blanchedalmond;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #b6cdd3;
+    color: white;
+  }
+  
 body {
     background-color: blanchedalmond
 }
 
 main {
-    margin-top:10%;
+    margin-top:5%;
 
 }
 
