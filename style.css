@@ -29,3 +29,7 @@ img {
     border: 2px solid blue;
 }
 
+ul{
+    list-style: none;
+}
+
