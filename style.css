@@ -1,3 +1,10 @@
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+  }
 body {
     background-color: blanchedalmond
 }
@@ -7,13 +14,13 @@ main {
 
 }
 
-h1 {
+h1, h2, h3{
     text-align: center;
     margin-top:5%;
 }
 
 section {
-    text-align: center;
+    text-align: left;
     background-color:bisque;
     margin-left: 25%;
     margin-right: 25%;
@@ -33,3 +40,7 @@ ul{
     list-style: none;
 }
 
+p {
+    margin: 5px;
+    padding: 5px;
+}
